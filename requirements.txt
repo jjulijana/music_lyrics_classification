@@ -1,0 +1,10 @@
+notebook
+jupyterlab
+ipywidgets
+tqdm
+kagglehub
+pandas
+numpy
+matplotlib
+scikit-learn
+kagglehub

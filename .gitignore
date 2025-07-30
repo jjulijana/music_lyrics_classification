@@ -3,6 +3,7 @@
 
 .vscode/*
 data/raw/*
+data/processed/*.csv
 
 ### Python ###
 # Byte-compiled / optimized / DLL files

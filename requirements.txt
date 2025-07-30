@@ -8,3 +8,4 @@ numpy
 matplotlib
 scikit-learn
 kagglehub
+seaborn

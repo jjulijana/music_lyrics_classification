@@ -10,3 +10,4 @@ scikit-learn
 kagglehub
 seaborn
 pandarallel
+torch

@@ -11,3 +11,4 @@ kagglehub
 seaborn
 pandarallel
 torch
+tensorflow

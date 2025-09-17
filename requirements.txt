@@ -11,3 +11,7 @@ kagglehub
 seaborn
 pandarallel
 torch
+transformers
+evaluate
+tensorflow
+joblib

@@ -5,6 +5,8 @@
 data/raw/*
 data/processed/*.csv
 data/splits/*
+outputs/*
+output/*
 
 ### Python ###
 # Byte-compiled / optimized / DLL files

@@ -8,6 +8,9 @@ data/splits/*
 outputs/*
 output/*
 
+models/lstm/outputs/*
+!models/lstm/outputs/.gitkeep
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/

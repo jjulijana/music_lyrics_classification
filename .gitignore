@@ -5,6 +5,8 @@
 data/raw/*
 data/processed/*.csv
 data/splits/*
+outputs/*
+output/*
 
 models/lstm/outputs/*
 !models/lstm/outputs/.gitkeep

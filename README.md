@@ -5,16 +5,6 @@ This project aims to classify songs based on the emotion expressed in their lyri
 
 ---
 
-### **Project Structure**  
-- **`data/`**: Contains raw and processed datasets.  
-- **`models/`**: Code for building and training LSTM and Transformer models.  
-- **`notebooks/`**: Jupyter notebooks for analysis and experiments.  
-- **`utils/`**: Helper scripts for preprocessing, loading embeddings, and evaluation.  
-- **`config/`**: Config files for model hyperparameters.  
-- **`tests/`**: Unit tests for project components.  
-
----
-
 ### **Installation**  
 1. Clone the repository:  
    ```bash
@@ -34,28 +24,32 @@ This project aims to classify songs based on the emotion expressed in their lyri
 
 ---
 
-### **Usage**  
-1. Preprocess data:  
-   ```bash
-   python utils/data_preprocessing.py
-   ```  
-2. Train a model:  
-   ```bash
-   python models/lstm/lstm_training.py  # For LSTM  
-   python models/transformer/transformer_training.py  # For Transformer  
-   ```  
-3. Evaluate performance:  
-   Use the metrics provided in `utils/metrics.py`.  
+### Project structure
+
+```
+project-root/
+├── data/
+│   ├── raw/                # Original datasets
+│   ├── preprocessed/       # Cleaned and formatted data
+│   └── splits/             # Train/validation/test splits
+├── utils/
+│   ├── 01_data_downloading.ipynb
+│   ├── 02_data_preprocessing.ipynb, preprocessing.py
+│   └── 03_spliting_maxlen.ipynb, maxlen_optimizer.py, splitter.py, vocab_sizing.py
+├── models/                 # Model implementation and models
+│   ├── lstm/               
+│   └── transformer/        
+└── documentation/          
+```
 
 ---
 
-### **Key Features**  
-- **Embeddings**: Pretrained GloVe/Word2Vec for LSTM and contextual embeddings for Transformers.  
-- **Models**: LSTM and Transformer (BERT-based).  
+### **Key Features** 
+- **Models**: LSTM and Transformer.  
 - **Evaluation**: Accuracy, Precision, Recall, and F1-Score.  
 
 ---
 
 ### **Contributors**  
-Julijana Jevtic
-Jelena Milosevic
+- [Jelena Milosevic 69/2020](https://github.com/jelena-mi)  
+- [Julijana Jevtic 25/2020](https://github.com/jjulijana)  
